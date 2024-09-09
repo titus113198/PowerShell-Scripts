@@ -1,4 +1,9 @@
-﻿param (
+﻿<#
+This script queries the C: Drive for available space and compares it to the threshold value provided.
+The default value is 20GB if a value is not provided.
+#>
+
+param (
     [int]$thresholdGB = 20  # Default value is 20 GB if not provided
 )
 
